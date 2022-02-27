@@ -20,7 +20,8 @@ input {
   width: 250px;
 }
 
-p {
-  position: absolute;
-  bottom: -50px;
+.title {
+  display: flex;
+  justify-content: center;
+  position: relative;
 }

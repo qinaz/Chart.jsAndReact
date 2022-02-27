@@ -15,6 +15,9 @@ function App() {
 
   return (
     <div className='App'>
+      <div className={'title'}>
+        <h1>AAPL Stock Price Trend Lind Chart</h1>
+      </div>
       <div className={'btns-wrapper'}>
         <button onClick={() => fetchData('1min')}>1 min</button>
         <button onClick={() => fetchData('5min')}>5 min</button>
